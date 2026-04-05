@@ -1,0 +1,133 @@
+body {
+  font-family: Arial;
+  padding: 20px;
+}
+
+.FinanceDashboardHeading{
+  display:flex;
+ 
+  justify-content: center;
+
+
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.card {
+  background: #eee;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+canvas {
+  max-width: 500px;
+  margin: 20px auto;
+  display: block;
+}
+
+.form {
+  margin: 15px 0;
+  display: flex;
+  gap: 10px;
+}
+
+.form input, .form select {
+  padding: 6px;
+}
+
+.form button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+}
+
+
+.insight-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.insight-card {
+  background: white;
+  padding: 15px;
+  width: 30%;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.insight-card span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.bars {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.bar {
+  margin: 10px 0;
+}
+
+.progress {
+  height: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.food-bar { background: green; }
+.rent-bar { background: blue; }
+.other-bar { background: orange; }
+
+.monthly {
+  background: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.month-row {
+  margin: 10px 0;
+}
+
+.month-bar {
+  height: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.march { background: gray; }
+.april { background: red; }
+
+.increase {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+}
+
+.observations {
+  background: white;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
