@@ -80,6 +80,24 @@ index.css
 
 React (Vite), JavaScript (ES6+), CSS, Context API
 
+**Setup and Installation**
+
+1. Clone the repository
+   git clone gh repo clone Coder-shank/My-Assignment___Zorvyn
+
+2. Navigate to project folder
+   cd My-Assignment___Zorvyn
+
+
+3. Install dependencies
+   npm install
+
+4. Run the project
+   npm run dev
+
+5. Open in browser
+   http://localhost:5173
+
 **How It Works**
 
 Users manually add transactions, and the dashboard updates balance, visualizations, and insights based on the entered data.
