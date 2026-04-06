@@ -73,10 +73,9 @@ const Dashboard = () => {
 
     
     <div>
-      <h2>Dashboard</h2>
-        
+      <h2 id="DashboardHeading">Dashboard</h2>
 
-      
+
       <div className="cards">
         <div className="card">Balance: ₹{balance}</div>
         <div className="card">Income: ₹{income}</div>
