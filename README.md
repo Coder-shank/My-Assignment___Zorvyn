@@ -7,8 +7,6 @@ You can access the deployed application here:
 
 https://my-assignment-zorvyn-qoyh.onrender.com/
 
-You can access the deployed application here:
-
 **Features**
 
 1. Summary Cards
