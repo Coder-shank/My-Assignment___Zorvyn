@@ -1,16 +1,89 @@
-# React + Vite
+**Finance Dashboard**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React-based web application that allows users to track, visualize, and analyze their financial activity through a clean and interactive interface.
 
-Currently, two official plugins are available:
+**Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. Summary Cards
+   Displays Total Balance, Income, and Expenses.
 
-## React Compiler
+2. Time-Based Visualization
+   Shows balance trend over time (e.g., monthly).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3. Categorical Visualization
+   Displays spending breakdown by categories (e.g., Food, Rent, Other).
 
-## Expanding the ESLint configuration
+4. Transactions Section
+   Displays a list of transactions with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Date
+* Amount
+* Category
+* Type (Income / Expense)
+
+Includes:
+
+* Search across all fields
+* Filtering (Income / Expense)
+* Sorting
+* Add and Edit functionality
+
+5. Basic Role-Based UI
+   Simulated frontend roles:
+
+* Viewer: Can only view data
+* Admin: Can add and edit transactions
+  Role can be switched using a dropdown.
+
+6. Insights Section
+   Provides:
+
+* Highest spending category
+* Monthly comparison
+* Spending distribution
+* Observations based on data
+
+7. State Management
+
+* Transactions data handled globally
+* Filters handled locally
+* Role handled globally
+  Implemented using React Context API and useState.
+
+8. UI and UX
+
+* Clean and readable design
+* Works on different screen sizes
+* Handles empty or no data cases gracefully
+
+**Extra Features**
+
+* Responsive design
+* Dark mode support
+
+**Project Structure**
+
+src/
+components/
+Dashboard.jsx
+Transactions.jsx
+Insights.jsx
+
+context/
+AppContext.jsx
+
+App.jsx
+main.jsx
+index.css
+
+**Tech Stack**
+
+React (Vite), JavaScript (ES6+), CSS, Context API
+
+**How It Works**
+
+Users manually add transactions, and the dashboard updates balance, visualizations, and insights based on the entered data.
+
+**Conclusion**
+
+This project demonstrates component-based architecture, state management, role-based UI, and financial data visualization.
