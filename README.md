@@ -2,6 +2,13 @@
 
 A simple React-based web application that allows users to track, visualize, and analyze their financial activity through a clean and interactive interface.
 
+**Live Demo**
+You can access the deployed application here:
+
+https://my-assignment-zorvyn-qoyh.onrender.com/
+
+You can access the deployed application here:
+
 **Features**
 
 1. Summary Cards
@@ -98,6 +105,7 @@ React (Vite), JavaScript (ES6+), CSS, Context API
 5. Open in browser
    http://localhost:5173
 
+   
 **How It Works**
 
 Users manually add transactions, and the dashboard updates balance, visualizations, and insights based on the entered data.
